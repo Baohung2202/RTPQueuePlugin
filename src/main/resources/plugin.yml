@@ -1,0 +1,16 @@
+name: RTPQueue
+version: 1.0.0
+main: com.example.rtpqueue.RTPQueuePlugin
+api-version: '1.20'
+author: CustomPlugin
+description: Plugin RTP thach dau va dich chuyen trong ban kinh 500m o 3 the gioi chinh
+
+commands:
+  rtpqueue:
+    description: Vao hang doi thách dau RTP
+    usage: /rtpqueue
+    permission: rtpqueue.use
+  thachdau:
+    description: Thach dau nguoi choi khac
+    usage: /thachdau <player> hoac /thachdau accept
+    permission: rtpqueue.use
